@@ -1,0 +1,4 @@
+SELECT
+    COUNT(group_name),
+    COUNT(DISTINCT group_name)
+FROM VT2511219940EA__STAGING.groups;

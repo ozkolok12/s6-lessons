@@ -132,3 +132,5 @@ dmypy.json
 .DS_Store
 dags
 .vscode/settings.json
+
+/data

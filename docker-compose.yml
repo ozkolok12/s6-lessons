@@ -1,5 +1,3 @@
-version: '2'
-
 services:
   metabase:
     image: metabase/metabase
@@ -18,6 +16,7 @@ services:
       - mydb:/var/lib/postgresql
       - mylessons:/lessons
       - ./dags:/lessons/dags
+      - ./data:/data
 
 volumes:
   mydb:
